@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Quiz.Paginas.Questao1"
+             Title="Pergunta 1">
+    <VerticalStackLayout Padding="10">
+        <Label 
+            x:Name="LblPergunta"
+            Text="Qual é a cor do céu?"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            HorizontalTextAlignment="Center"
+            TextColor="#3465a4"
+            FontAttributes="Bold"
+            Padding="10"/>
+        <RadioButton 
+            Content="Vervelho" 
+             Value="errado"
+            CornerRadius="20"
+             BackgroundColor="Red"
+            TextColor="White"
+            CheckedChanged="Verificar"
+            FontAttributes="Italic"/>
+        
+        <RadioButton 
+             Content="Azul"
+             Value="certo"
+              CornerRadius="20"
+             BackgroundColor="Blue"
+             TextColor="White"
+              CheckedChanged="Verificar"
+             FontAttributes="Italic"/>
+
+        <RadioButton 
+         Content="Amarelo" 
+            CornerRadius="20"
+             Value="errado"
+              BackgroundColor="Yellow"
+             TextColor="Black"
+              CheckedChanged="Verificar"
+             FontAttributes="Italic"/>
+
+        <RadioButton 
+            Margin="20"
+          Content="Verde" 
+            CornerRadius="20"
+             Value="errado"
+            BackgroundColor="Green"
+          TextColor="White"
+              CheckedChanged="Verificar"
+          FontAttributes="Italic"/> 
+        
+        <Button 
+                x:Name="BtnVerificar"
+                Text="Verificar Respostas"
+                Clicked="BtnVerificar_Clicked"
+          />
+
+
+    </VerticalStackLayout>
+</ContentPage>

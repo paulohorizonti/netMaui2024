@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             Shell.NavBarIsVisible="false"
+             BackgroundColor="#355269"
+             x:Class="Quiz.MainPage">
+    <ContentPage.Behaviors>
+        <toolkit:StatusBarBehavior StatusBarColor="#355269" StatusBarStyle="LightContent"/>
+    </ContentPage.Behaviors>
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Image
+                Source="mainpage.png"
+              
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="Teste seus Conhecimentos"
+                HorizontalTextAlignment="Center"
+                VerticalTextAlignment="Center"
+                FontAttributes="Bold"
+                FontSize="32"
+                TextColor="White"
+                HorizontalOptions="Center" />
+
+            
+            <Button
+                x:Name="BtnIniciar"
+                Text="Iniciar Atividade"
+                Clicked="BtnIniciar_Clicked"
+                FontAttributes="Bold"
+                FontSize="24"
+                CornerRadius="20"
+                HorizontalOptions="Center" />
+            
+            <Label
+                Text="Welcome to .NET Multi-platform App UI"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
+                FontSize="18"
+                TextColor="#b4c7dc"
+                HorizontalOptions="Center" />   
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
