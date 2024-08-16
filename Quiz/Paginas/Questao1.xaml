@@ -16,7 +16,7 @@
         <RadioButton 
             Content="Vervelho" 
              Value="errado"
-            CornerRadius="20"
+            CornerRadius="10"
              BackgroundColor="Red"
             TextColor="White"
             CheckedChanged="Verificar"
@@ -25,7 +25,7 @@
         <RadioButton 
              Content="Azul"
              Value="certo"
-              CornerRadius="20"
+              CornerRadius="10"
              BackgroundColor="Blue"
              TextColor="White"
               CheckedChanged="Verificar"
@@ -33,7 +33,7 @@
 
         <RadioButton 
          Content="Amarelo" 
-            CornerRadius="20"
+            CornerRadius="10"
              Value="errado"
               BackgroundColor="Yellow"
              TextColor="Black"
@@ -43,7 +43,7 @@
         <RadioButton 
            
           Content="Verde" 
-            CornerRadius="20"
+            CornerRadius="10"
              Value="errado"
             BackgroundColor="Green"
           TextColor="White"
