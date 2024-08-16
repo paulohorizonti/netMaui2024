@@ -41,7 +41,7 @@
              FontAttributes="Italic"/>
 
         <RadioButton 
-            Margin="20"
+           
           Content="Verde" 
             CornerRadius="20"
              Value="errado"
@@ -51,6 +51,7 @@
           FontAttributes="Italic"/> 
         
         <Button 
+             Margin="20"
                 x:Name="BtnVerificar"
                 Text="Verificar Respostas"
                 Clicked="BtnVerificar_Clicked"
