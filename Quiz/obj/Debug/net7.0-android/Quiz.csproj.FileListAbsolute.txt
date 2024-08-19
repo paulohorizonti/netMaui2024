@@ -1,11 +1,3 @@
-C:\Users\preciso\source\repos\Quiz\Quiz\bin\Debug\net7.0-android\Quiz.runtimeconfig.json
-C:\Users\preciso\source\repos\Quiz\Quiz\bin\Debug\net7.0-android\Quiz.dll
-C:\Users\preciso\source\repos\Quiz\Quiz\bin\Debug\net7.0-android\Quiz.pdb
-C:\Users\preciso\source\repos\Quiz\Quiz\bin\Debug\net7.0-android\com.companyname.quiz.apk
-C:\Users\preciso\source\repos\Quiz\Quiz\bin\Debug\net7.0-android\com.companyname.quiz.aab
-C:\Users\preciso\source\repos\Quiz\Quiz\bin\Debug\net7.0-android\com.companyname.quiz-Signed.aab
-C:\Users\preciso\source\repos\Quiz\Quiz\bin\Debug\net7.0-android\com.companyname.quiz-Signed.apk
-C:\Users\preciso\source\repos\Quiz\Quiz\bin\Debug\net7.0-android\com.companyname.quiz-Signed.apk.idsig
 C:\Users\preciso\source\repos\Quiz\Quiz\obj\Debug\net7.0-android\.NETCoreApp,Version=v7.0.AssemblyAttributes.cs
 C:\Users\preciso\source\repos\Quiz\Quiz\obj\Debug\net7.0-android\build.props
 C:\Users\preciso\source\repos\Quiz\Quiz\obj\Debug\net7.0-android\adb.props
@@ -127,6 +119,14 @@ C:\Users\preciso\source\repos\Quiz\Quiz\obj\Debug\net7.0-android\Quiz.AssemblyIn
 C:\Users\preciso\source\repos\Quiz\Quiz\obj\Debug\net7.0-android\Quiz.AssemblyInfo.cs
 C:\Users\preciso\source\repos\Quiz\Quiz\obj\Debug\net7.0-android\Quiz.csproj.CoreCompileInputs.cache
 C:\Users\preciso\source\repos\Quiz\Quiz\obj\Debug\net7.0-android\Quiz.sourcelink.json
+C:\Users\preciso\source\repos\Quiz\Quiz\bin\Debug\net7.0-android\Quiz.runtimeconfig.json
+C:\Users\preciso\source\repos\Quiz\Quiz\bin\Debug\net7.0-android\Quiz.dll
+C:\Users\preciso\source\repos\Quiz\Quiz\bin\Debug\net7.0-android\Quiz.pdb
+C:\Users\preciso\source\repos\Quiz\Quiz\bin\Debug\net7.0-android\com.companyname.quiz.apk
+C:\Users\preciso\source\repos\Quiz\Quiz\bin\Debug\net7.0-android\com.companyname.quiz.aab
+C:\Users\preciso\source\repos\Quiz\Quiz\bin\Debug\net7.0-android\com.companyname.quiz-Signed.aab
+C:\Users\preciso\source\repos\Quiz\Quiz\bin\Debug\net7.0-android\com.companyname.quiz-Signed.apk
+C:\Users\preciso\source\repos\Quiz\Quiz\bin\Debug\net7.0-android\com.companyname.quiz-Signed.apk.idsig
 C:\Users\preciso\source\repos\Quiz\Quiz\obj\Debug\net7.0-android\XamlC.stamp
 C:\Users\preciso\source\repos\Quiz\Quiz\obj\Debug\net7.0-android\Quiz.dll
 C:\Users\preciso\source\repos\Quiz\Quiz\obj\Debug\net7.0-android\Quiz.pdb

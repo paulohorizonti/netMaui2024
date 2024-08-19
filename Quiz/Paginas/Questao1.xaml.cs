@@ -10,7 +10,7 @@ public partial class Questao1 : ContentPage
 	}
     protected async override void OnAppearing()
     {
-        base.OnAppearing();
+                 base.OnAppearing();
 
         string nome = await SecureStorage.Default.GetAsync("nome");
 
