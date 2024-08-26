@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Quiz.Paginas.Questao2"
+             Title="Pergunta 2">
+    <VerticalStackLayout Padding="10">
+        <Label 
+            x:Name="LblPergunta"
+            Text="O que tem na IMAGEM?"
+            FontSize="Large"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            HorizontalTextAlignment="Center"
+            TextColor="#3465a4"
+            FontAttributes="Bold"
+            Padding="15"/>
+        <Image Source="dotnet_bot"/>
+
+
+        <Border 
+           
+            Background="GhostWhite"
+            StrokeThickness="2">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="30,30,0,30"/>
+                 
+            </Border.StrokeShape>
+            <Border.Shadow>
+                <Shadow 
+                    Brush="LightGray"
+                    Offset="10,10"
+                    Radius="10"
+                    Opacity="0.8"
+                    />
+            </Border.Shadow>
+            <VerticalStackLayout Margin="20">
+                <RadioButton 
+                    Content="CASA" 
+                     Value="errado"
+                     CornerRadius="10"
+                   
+                    TextColor="DarkBlue"
+                    CheckedChanged="Verificar"
+                    FontAttributes="Bold"
+                    />
+                
+                <RadioButton 
+                     Content="FRANGO"
+                     Value="certo"
+                      CornerRadius="10"
+                    
+                     TextColor="DarkBlue"
+                      CheckedChanged="Verificar"
+                     FontAttributes="Italic"/>
+
+                <RadioButton 
+                     Content="ROBÔ" 
+                     CornerRadius="10"
+                     Value="errado"
+                     
+                     TextColor="DarkBlue"
+                      CheckedChanged="Verificar"
+                     FontAttributes="Italic"/>
+
+                <RadioButton 
+                       Content="OVINI" 
+                      CornerRadius="10"
+                      Value="errado"
+                   
+                      TextColor="DarkBlue"
+                      CheckedChanged="Verificar"
+                      FontAttributes="Italic"/>         
+
+            </VerticalStackLayout>
+        </Border>
+        
+        <Button 
+         Margin="0,20"
+         x:Name="BtnVerificar"
+         Text="Verificar Respostas"
+         Clicked="BtnVerificar_Clicked"
+         />
+
+
+
+    </VerticalStackLayout>
+</ContentPage>

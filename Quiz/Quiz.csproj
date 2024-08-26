@@ -72,6 +72,15 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="Paginas\Questao2.xaml.cs">
+	    <DependentUpon>Questao2.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Paginas\Questao2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Paginas\Questao1.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

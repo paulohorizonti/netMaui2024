@@ -43,15 +43,16 @@ public partial class Questao1 : ContentPage
         }
     }
 
-    private void BtnVerificar_Clicked(object sender, EventArgs e)
+    private async void BtnVerificar_Clicked(object sender, EventArgs e)
     {
         if (acerto)
         {
-            DisplayAlert("Resultado", "Você acertou!", "OK");
+            //DisplayAlert("Resultado", "Você acertou!", "OK");
+            await Navigation.PushAsync(new Paginas.Questao2());
         }
         else
         {
-            DisplayAlert("Resultado", "Você errou, que pena!", "OK");
+            //DisplayAlert("Resultado", "Você errou, que pena!", "OK");
         }
     }
 }
