@@ -43,15 +43,22 @@ public partial class Questao2 : ContentPage
         }
     }
 
-    private void BtnVerificar_Clicked(object sender, EventArgs e)
+    private async void BtnVerificar_Clicked(object sender, EventArgs e)
     {
         if (acerto)
         {
-            DisplayAlert("Resultado", "Você acertou!", "OK");
+            string valor = await SecureStorage.GetAsync("parcial");
+            double parcial = double.Parse(valor);
+            parcial += 1;
+
+            await SecureStorage.SetAsync("parcial", parcial.ToString());
+           
+            await Navigation.PushAsync(new Paginas.Resultado());
+           
         }
         else
         {
-            DisplayAlert("Resultado", "Você errou, que pena!", "OK");
+            await Navigation.PushAsync(new Paginas.Resultado());
         }
     }
 }

@@ -16,6 +16,7 @@ namespace Quiz
             base.OnAppearing();
 
             SecureStorage.Default.RemoveAll();
+            SecureStorage.Default.SetAsync("parcial", "0");
         }
 
 

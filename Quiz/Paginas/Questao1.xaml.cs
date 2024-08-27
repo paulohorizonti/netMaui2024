@@ -47,12 +47,17 @@ public partial class Questao1 : ContentPage
     {
         if (acerto)
         {
+            string valor = await SecureStorage.GetAsync("parcial");
+            double parcial = double.Parse(valor);
+            parcial += 1;
+
+            await SecureStorage.SetAsync("parcial", parcial.ToString());
             //DisplayAlert("Resultado", "Você acertou!", "OK");
             await Navigation.PushAsync(new Paginas.Questao2());
         }
         else
         {
-            //DisplayAlert("Resultado", "Você errou, que pena!", "OK");
+            await Navigation.PushAsync(new Paginas.Questao2());
         }
     }
 }

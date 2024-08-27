@@ -46,7 +46,7 @@
                 
                 <RadioButton 
                      Content="FRANGO"
-                     Value="certo"
+                     Value="errado"
                       CornerRadius="10"
                     
                      TextColor="DarkBlue"
@@ -56,7 +56,7 @@
                 <RadioButton 
                      Content="ROBÔ" 
                      CornerRadius="10"
-                     Value="errado"
+                     Value="certo"
                      
                      TextColor="DarkBlue"
                       CheckedChanged="Verificar"

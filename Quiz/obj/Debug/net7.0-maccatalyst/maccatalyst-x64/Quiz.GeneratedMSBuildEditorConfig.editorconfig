@@ -46,6 +46,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Quiz.Paginas.Questao2.xaml
 build_metadata.AdditionalFiles.TargetPath = Paginas\Questao2.xaml
 build_metadata.AdditionalFiles.RelativePath = Paginas\Questao2.xaml
 
+[C:/Users/preciso/source/repos/Quiz/Quiz/Paginas/Resultado.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Quiz.Paginas.Resultado.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\Resultado.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\Resultado.xaml
+
 [C:/Users/preciso/source/repos/Quiz/Quiz/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Quiz.Resources.Styles.Colors.xaml
